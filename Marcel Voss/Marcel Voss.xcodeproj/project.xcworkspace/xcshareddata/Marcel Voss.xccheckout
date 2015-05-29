@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D5F86879-83CB-444F-BA59-AA403388E12E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Marcel Voss</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>73322315E3BDE9315E85B903B7436E03A53AF7FE</key>
+		<string>https://github.com/marcelvoss/WWDC15-Scholarship.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Marcel Voss/Marcel Voss.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>73322315E3BDE9315E85B903B7436E03A53AF7FE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/marcelvoss/WWDC15-Scholarship.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>73322315E3BDE9315E85B903B7436E03A53AF7FE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>73322315E3BDE9315E85B903B7436E03A53AF7FE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WWDC15-Scholarship</string>
+		</dict>
+	</array>
+</dict>
+</plist>

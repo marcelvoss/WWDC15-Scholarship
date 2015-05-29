@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F0C4A471ADD64900083C759 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C4A461ADD64900083C759 /* main.m */; };
+		1F0C4A4A1ADD64900083C759 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C4A491ADD64900083C759 /* AppDelegate.m */; };
+		1F0C4A4C1ADD64900083C759 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C4A4B1ADD64900083C759 /* Images.xcassets */; };
+		1F0C4A4F1ADD64900083C759 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C4A4D1ADD64900083C759 /* LaunchScreen.xib */; };
+		1F0C4A5B1ADD64900083C759 /* Marcel_VossTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C4A5A1ADD64900083C759 /* Marcel_VossTests.m */; };
+		1F0C4A6A1ADD68480083C759 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C4A691ADD68480083C759 /* MainViewController.m */; };
+		1F0C4A6D1ADD6A070083C759 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C4A6C1ADD6A070083C759 /* Constants.m */; };
+		1F0C4A6F1ADD840E0083C759 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0C4A6E1ADD840E0083C759 /* MapKit.framework */; };
+		1F0C4A771ADDC44C0083C759 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C4A761ADDC44C0083C759 /* Data.json */; };
+		1F1BDD741AE02C5400E6A52B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BDD731AE02C5400E6A52B /* MenuView.swift */; };
+		1F1FB99D1AE0925D00FB9E99 /* ImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1FB99C1AE0925D00FB9E99 /* ImageViewer.swift */; };
+		1F227CD51AE33DFE00B42B5B /* SkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F227CD41AE33DFE00B42B5B /* SkillView.swift */; };
+		1FAD13DD1AE1DFCC00B04E00 /* InteractiveImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAD13DC1AE1DFCC00B04E00 /* InteractiveImageView.swift */; };
+		1FB975AE1AE2CE4F002D9EF0 /* AppViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB975AD1AE2CE4F002D9EF0 /* AppViewer.swift */; };
+		1FC0A5FB1AE1BDDF00DBD0EC /* MapViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0A5FA1AE1BDDF00DBD0EC /* MapViewer.swift */; };
+		1FD1001C1ADEEB8B004E1008 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1001B1ADEEB8B004E1008 /* CardView.m */; };
+		1FD100271ADF10A7004E1008 /* NSArrayUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD100261ADF10A7004E1008 /* NSArrayUtilities.swift */; };
+		1FD1FFFD1ADE98E8004E1008 /* UIColor+Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1FFFC1ADE98E8004E1008 /* UIColor+Colors.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F0C4A551ADD64900083C759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0C4A391ADD64900083C759 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F0C4A401ADD64900083C759;
+			remoteInfo = "Marcel Voss";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F0C4A411ADD64900083C759 /* Marcel Voss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marcel Voss.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0C4A451ADD64900083C759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0C4A461ADD64900083C759 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F0C4A481ADD64900083C759 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F0C4A491ADD64900083C759 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F0C4A4B1ADD64900083C759 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1F0C4A4E1ADD64900083C759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1F0C4A541ADD64900083C759 /* Marcel VossTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marcel VossTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0C4A591ADD64900083C759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0C4A5A1ADD64900083C759 /* Marcel_VossTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Marcel_VossTests.m; sourceTree = "<group>"; };
+		1F0C4A681ADD68480083C759 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1F0C4A691ADD68480083C759 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1F0C4A6B1ADD6A070083C759 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		1F0C4A6C1ADD6A070083C759 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		1F0C4A6E1ADD840E0083C759 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1F0C4A761ADDC44C0083C759 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		1F1BDD731AE02C5400E6A52B /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		1F1FB99C1AE0925D00FB9E99 /* ImageViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewer.swift; sourceTree = "<group>"; };
+		1F227CD41AE33DFE00B42B5B /* SkillView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillView.swift; sourceTree = "<group>"; };
+		1FAD13DC1AE1DFCC00B04E00 /* InteractiveImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveImageView.swift; sourceTree = "<group>"; };
+		1FB975AD1AE2CE4F002D9EF0 /* AppViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppViewer.swift; sourceTree = "<group>"; };
+		1FC0A5FA1AE1BDDF00DBD0EC /* MapViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewer.swift; sourceTree = "<group>"; };
+		1FD1001A1ADEEB8B004E1008 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		1FD1001B1ADEEB8B004E1008 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		1FD100251ADF10A6004E1008 /* Marcel Voss-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Marcel Voss-Bridging-Header.h"; sourceTree = "<group>"; };
+		1FD100261ADF10A7004E1008 /* NSArrayUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSArrayUtilities.swift; sourceTree = "<group>"; };
+		1FD1FFFB1ADE98E8004E1008 /* UIColor+Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Colors.h"; sourceTree = "<group>"; };
+		1FD1FFFC1ADE98E8004E1008 /* UIColor+Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Colors.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F0C4A3E1ADD64900083C759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0C4A6F1ADD840E0083C759 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0C4A511ADD64900083C759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F0C4A381ADD64900083C759 = {
+			isa = PBXGroup;
+			children = (
+				1F0C4A431ADD64900083C759 /* Marcel Voss */,
+				1F0C4A781ADDC45B0083C759 /* Frameworks */,
+				1F0C4A571ADD64900083C759 /* Marcel VossTests */,
+				1F0C4A421ADD64900083C759 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F0C4A421ADD64900083C759 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C4A411ADD64900083C759 /* Marcel Voss.app */,
+				1F0C4A541ADD64900083C759 /* Marcel VossTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F0C4A431ADD64900083C759 /* Marcel Voss */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C4A481ADD64900083C759 /* AppDelegate.h */,
+				1F0C4A491ADD64900083C759 /* AppDelegate.m */,
+				1F0C4A651ADD66E80083C759 /* Views */,
+				1F0C4A671ADD66ED0083C759 /* Helpers */,
+				1F0C4A661ADD66EA0083C759 /* Categories */,
+				1F0C4A641ADD66E40083C759 /* View Controllers */,
+				1F0C4A441ADD64900083C759 /* Supporting Files */,
+			);
+			path = "Marcel Voss";
+			sourceTree = "<group>";
+		};
+		1F0C4A441ADD64900083C759 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FD100251ADF10A6004E1008 /* Marcel Voss-Bridging-Header.h */,
+				1F0C4A761ADDC44C0083C759 /* Data.json */,
+				1F0C4A4D1ADD64900083C759 /* LaunchScreen.xib */,
+				1F0C4A4B1ADD64900083C759 /* Images.xcassets */,
+				1F0C4A451ADD64900083C759 /* Info.plist */,
+				1F0C4A461ADD64900083C759 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F0C4A571ADD64900083C759 /* Marcel VossTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C4A5A1ADD64900083C759 /* Marcel_VossTests.m */,
+				1F0C4A581ADD64900083C759 /* Supporting Files */,
+			);
+			path = "Marcel VossTests";
+			sourceTree = "<group>";
+		};
+		1F0C4A581ADD64900083C759 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C4A591ADD64900083C759 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F0C4A641ADD66E40083C759 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C4A681ADD68480083C759 /* MainViewController.h */,
+				1F0C4A691ADD68480083C759 /* MainViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1F0C4A651ADD66E80083C759 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F1BDD731AE02C5400E6A52B /* MenuView.swift */,
+				1FB975B01AE2E3B0002D9EF0 /* Viewers */,
+				1FD1001D1ADEECD7004E1008 /* Card View */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1F0C4A661ADD66EA0083C759 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1FD1FFFB1ADE98E8004E1008 /* UIColor+Colors.h */,
+				1FD1FFFC1ADE98E8004E1008 /* UIColor+Colors.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		1F0C4A671ADD66ED0083C759 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C4A6B1ADD6A070083C759 /* Constants.h */,
+				1F0C4A6C1ADD6A070083C759 /* Constants.m */,
+				1FD100261ADF10A7004E1008 /* NSArrayUtilities.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		1F0C4A781ADDC45B0083C759 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C4A6E1ADD840E0083C759 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			path = "Marcel Voss";
+			sourceTree = "<group>";
+		};
+		1FAD13DE1AE1E07900B04E00 /* Image Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				1F1FB99C1AE0925D00FB9E99 /* ImageViewer.swift */,
+				1FAD13DC1AE1DFCC00B04E00 /* InteractiveImageView.swift */,
+			);
+			name = "Image Viewer";
+			sourceTree = "<group>";
+		};
+		1FB975B01AE2E3B0002D9EF0 /* Viewers */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0A5FA1AE1BDDF00DBD0EC /* MapViewer.swift */,
+				1FB975AD1AE2CE4F002D9EF0 /* AppViewer.swift */,
+				1FAD13DE1AE1E07900B04E00 /* Image Viewer */,
+			);
+			name = Viewers;
+			sourceTree = "<group>";
+		};
+		1FD1001D1ADEECD7004E1008 /* Card View */ = {
+			isa = PBXGroup;
+			children = (
+				1FD1001A1ADEEB8B004E1008 /* CardView.h */,
+				1FD1001B1ADEEB8B004E1008 /* CardView.m */,
+				1F227CD41AE33DFE00B42B5B /* SkillView.swift */,
+			);
+			name = "Card View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F0C4A401ADD64900083C759 /* Marcel Voss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0C4A5E1ADD64900083C759 /* Build configuration list for PBXNativeTarget "Marcel Voss" */;
+			buildPhases = (
+				1F0C4A3D1ADD64900083C759 /* Sources */,
+				1F0C4A3E1ADD64900083C759 /* Frameworks */,
+				1F0C4A3F1ADD64900083C759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Marcel Voss";
+			productName = "Marcel Voss";
+			productReference = 1F0C4A411ADD64900083C759 /* Marcel Voss.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F0C4A531ADD64900083C759 /* Marcel VossTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0C4A611ADD64900083C759 /* Build configuration list for PBXNativeTarget "Marcel VossTests" */;
+			buildPhases = (
+				1F0C4A501ADD64900083C759 /* Sources */,
+				1F0C4A511ADD64900083C759 /* Frameworks */,
+				1F0C4A521ADD64900083C759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F0C4A561ADD64900083C759 /* PBXTargetDependency */,
+			);
+			name = "Marcel VossTests";
+			productName = "Marcel VossTests";
+			productReference = 1F0C4A541ADD64900083C759 /* Marcel VossTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F0C4A391ADD64900083C759 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Marcel Voß";
+				TargetAttributes = {
+					1F0C4A401ADD64900083C759 = {
+						CreatedOnToolsVersion = 6.3;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					1F0C4A531ADD64900083C759 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 1F0C4A401ADD64900083C759;
+					};
+				};
+			};
+			buildConfigurationList = 1F0C4A3C1ADD64900083C759 /* Build configuration list for PBXProject "Marcel Voss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F0C4A381ADD64900083C759;
+			productRefGroup = 1F0C4A421ADD64900083C759 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F0C4A401ADD64900083C759 /* Marcel Voss */,
+				1F0C4A531ADD64900083C759 /* Marcel VossTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F0C4A3F1ADD64900083C759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0C4A4F1ADD64900083C759 /* LaunchScreen.xib in Resources */,
+				1F0C4A4C1ADD64900083C759 /* Images.xcassets in Resources */,
+				1F0C4A771ADDC44C0083C759 /* Data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0C4A521ADD64900083C759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F0C4A3D1ADD64900083C759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0C4A4A1ADD64900083C759 /* AppDelegate.m in Sources */,
+				1FAD13DD1AE1DFCC00B04E00 /* InteractiveImageView.swift in Sources */,
+				1F227CD51AE33DFE00B42B5B /* SkillView.swift in Sources */,
+				1FD100271ADF10A7004E1008 /* NSArrayUtilities.swift in Sources */,
+				1F1FB99D1AE0925D00FB9E99 /* ImageViewer.swift in Sources */,
+				1F0C4A6A1ADD68480083C759 /* MainViewController.m in Sources */,
+				1F0C4A471ADD64900083C759 /* main.m in Sources */,
+				1FC0A5FB1AE1BDDF00DBD0EC /* MapViewer.swift in Sources */,
+				1FD1001C1ADEEB8B004E1008 /* CardView.m in Sources */,
+				1F1BDD741AE02C5400E6A52B /* MenuView.swift in Sources */,
+				1FB975AE1AE2CE4F002D9EF0 /* AppViewer.swift in Sources */,
+				1FD1FFFD1ADE98E8004E1008 /* UIColor+Colors.m in Sources */,
+				1F0C4A6D1ADD6A070083C759 /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0C4A501ADD64900083C759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0C4A5B1ADD64900083C759 /* Marcel_VossTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F0C4A561ADD64900083C759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F0C4A401ADD64900083C759 /* Marcel Voss */;
+			targetProxy = 1F0C4A551ADD64900083C759 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F0C4A4D1ADD64900083C759 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0C4A4E1ADD64900083C759 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F0C4A5C1ADD64900083C759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F0C4A5D1ADD64900083C759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F0C4A5F1ADD64900083C759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Marcel Voss/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Marcel Voss/Marcel Voss-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F0C4A601ADD64900083C759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Marcel Voss/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Marcel Voss/Marcel Voss-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		1F0C4A621ADD64900083C759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Marcel VossTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marcel Voss.app/Marcel Voss";
+			};
+			name = Debug;
+		};
+		1F0C4A631ADD64900083C759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Marcel VossTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marcel Voss.app/Marcel Voss";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F0C4A3C1ADD64900083C759 /* Build configuration list for PBXProject "Marcel Voss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0C4A5C1ADD64900083C759 /* Debug */,
+				1F0C4A5D1ADD64900083C759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0C4A5E1ADD64900083C759 /* Build configuration list for PBXNativeTarget "Marcel Voss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0C4A5F1ADD64900083C759 /* Debug */,
+				1F0C4A601ADD64900083C759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0C4A611ADD64900083C759 /* Build configuration list for PBXNativeTarget "Marcel VossTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0C4A621ADD64900083C759 /* Debug */,
+				1F0C4A631ADD64900083C759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F0C4A391ADD64900083C759 /* Project object */;
+}
