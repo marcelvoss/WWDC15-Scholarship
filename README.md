@@ -1,10 +1,10 @@
 # WWDC15-Scholarship
 
-I was accepted!
+**Update:** I was accepted!
 
-This is the application I created for the WWDC 2015 scholarship. Please notice that I had to censor some information about me. Also sorry for the rough code. :(
+This is the application I created for the WWDC 2015 scholarship. Please notice that I had to censor some information about me. Also sorry for the rough code (especially my Swift code is really bad). :(
 
-I made use of a modified version of [@BalestraPatrick's](https://github.com/BalestraPatrick) skill progress bar.
+I made use of a modified version of [@BalestraPatrick's](https://github.com/BalestraPatrick) skill progress bar. Thanks for that!
 
 ## Preview
 <center>
@@ -13,8 +13,28 @@ I made use of a modified version of [@BalestraPatrick's](https://github.com/Bale
 <img src="Preview/3.png" height=400>
 </center>
 
-[Here'a a video](https://vimeo.com/126154527) if you want to see it in action.
+## License/Unlicense
+This is free and unencumbered software released into the public domain.
 
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
 
-## License
-This project is available under the Unlicense. See the [LICENSE](https://github.com/marcelvoss/WWDC15-Scholarship/blob/master/LICENSE.md) file for more information. So, you're allowed to do anything you want with it.
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+For more information, please refer to <http://unlicense.org>

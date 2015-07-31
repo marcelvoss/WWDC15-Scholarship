@@ -12,9 +12,9 @@ class NSArrayUtilities: NSObject {
     
     class func arrayForJSON(filename: String) -> NSArray {
         
-        var file  = NSBundle.mainBundle().pathForResource(filename, ofType:"json")
-        var data = NSData(contentsOfFile:file!)
-        var sJson     = NSJSONSerialization.JSONObjectWithData(data!, options:nil, error: nil) as! NSArray
+        let file  = NSBundle.mainBundle().pathForResource(filename, ofType:"json")
+        let data = NSData(contentsOfFile:file!)
+        let sJson = NSJSONSerialization.JSONObjectWithData(data!, options:nil, error: nil) as! NSArray
         
         return sJson;
         

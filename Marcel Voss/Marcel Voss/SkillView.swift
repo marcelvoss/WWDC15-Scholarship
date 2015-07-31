@@ -15,7 +15,7 @@ class SkillView: UIView {
     var container = UIView()
     var since : String?
     
-    var sinceLabel = UILabel()
+    let sinceLabel = UILabel()
     
     var percentageLabel = UILabel()
     var nameLabel = UILabel()
