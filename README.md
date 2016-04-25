@@ -14,7 +14,7 @@ I made use of a modified version of [@BalestraPatrick's](https://github.com/Bale
 </center>
 
 ## License/Unlicense
-This is free and unencumbered software released into the public domain.
+This is free and unencumbered software released into the public domain with one restriction: I ask you to not recycle my application for your own scholarship app.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
 distribute this software, either in source code form or as a compiled
